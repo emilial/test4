@@ -39,6 +39,7 @@ public class addK extends JDialog implements ActionListener{
     java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
     setBounds( (screenSize.width-1000)/2, (screenSize.height-600)/2, 100, 100);
 //    setSize (400,600);
+// saldjkfhasdijhc
     
     JPanel pane = new JPanel();
     pane.setLayout(new GridBagLayout());
