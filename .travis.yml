@@ -5,7 +5,6 @@ before_install:
   - sudo apt-get install pandoc
   - gem install asciidoctor
 script: ant build
-  - make
   after_success:
   - push.sh
 env:
