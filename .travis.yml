@@ -4,8 +4,7 @@ jdk:
 before_install:
   - sudo apt-get install pandoc
   - gem install asciidoctor
-script:
-  - ant build
+script: ant build
   - make
   after_success:
   - .travis/push.sh
