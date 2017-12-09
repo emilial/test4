@@ -1,4 +1,3 @@
-sh.sh
 #!/bin/sh
 
 setup_git() {
