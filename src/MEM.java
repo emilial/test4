@@ -44,7 +44,8 @@ public class MEM extends javax.swing.JFrame {
     	File = new java.lang.String();
     	
 // menu Plik
-//nowy dodatkowy komentarz   	
+//nowy dodatkowy komentarz   
+// i kolejny komentarz tym razem w eclipse
         menuBar = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         nowy = new javax.swing.JMenuItem();
