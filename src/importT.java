@@ -32,6 +32,7 @@ public class importT {
     final Map<String,Object> vals = new HashMap<String,Object>();
     
     //wczytanie danych z pliku *.tex
+    // komentarz w eclipse
     public static void file(String f) throws IOException {
 //		System.out.println(" próba wczytania pliku "+f);
 
