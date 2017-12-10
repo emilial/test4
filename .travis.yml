@@ -1,13 +1,5 @@
 language: java
 jdk:
   - oraclejdk8
-before_install:
-  - sudo apt-get install pandoc
-  - gem install asciidoctor
-script:
-  - ant build
-  after_success:
-  - push.sh
-env:
-  global:
-    secure: hZJlqgOzA2zIUJSWIka0PylqNaTkfHq+kS48RrHmocrK0vLyCW7ECWrzez2f2RVdTNzPi0b+yJq2uCbFfWjImZqg+XY1I75/CVVdSYMk7PJkYZ/iBDixMYY8CAkRRd5yZft9uZAdZzR4KLCPN18n7qfISv/M9VA8989NKcVyiEU=
+script: ant build
+after_success: push.sh
