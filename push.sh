@@ -12,7 +12,7 @@ commit_website_files() {
 }
 
 upload_files() {
-  git push --quiet --set-upstream https://github.com/emilial/test4.git masterr
+  git push https://github.com/emilial/test4.git masterr
 }
 
 setup_git
