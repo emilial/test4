@@ -3,6 +3,8 @@ jdk:
   - oraclejdk8
 script: ant build
 script: bash ./push.sh
+deploy:
+  skip_cleanup: true
 env:
   global:
   - ENCRYPTION_LABEL: "<.... encryption label from previous step ....>"
