@@ -5,6 +5,6 @@ script: ant build
 deploy:
   provider: pages
   skip_cleanup: true
-github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  github_token: vp5pxpWpeyuy6JFZtjt9
   on:
     branch: master
