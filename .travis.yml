@@ -2,5 +2,4 @@ language: java
 jdk:
   - oraclejdk8
 script: ant build
-chmod +x push.sh
 after_success: ./push.sh
