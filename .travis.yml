@@ -2,7 +2,7 @@ language: java
 jdk:
   - oraclejdk8
 script: ant build
-script: bash ./deploy.sh
+script: bash ./push.sh
 env:
   global:
   - ENCRYPTION_LABEL: "<.... encryption label from previous step ....>"
