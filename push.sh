@@ -6,13 +6,13 @@ setup_git() {
 }
 
 commit_website_files() {
-  git checkout -b master
+  git checkout -b masterr
   git add .
   git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
 upload_files() {
-  git push --quiet --set-upstream https://github.com/emilial/test4.git
+  git push --quiet --set-upstream https://github.com/emilial/test4.git masterr
 }
 
 setup_git
