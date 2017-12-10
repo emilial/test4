@@ -2,8 +2,8 @@ language: java
 jdk:
   - oraclejdk8
 script: ant build
-deploy:
-  skip_cleanup: true
-  github_token: vp5pxpWpeyuy6JFZtjt9
-  on:
-    branch: master
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "<.... encryption label from previous step ....>"
+  - COMMIT_AUTHOR_EMAIL: "elubecka@inf.ug.edu.pl"
